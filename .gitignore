@@ -1,0 +1,17 @@
+__pycache__/
+
+venv/
+.env
+
+logs/
+*.log
+
+test/
+
+*.db
+*.sqlite
+*.sqlite3
+
+*.toml
+
+c.py

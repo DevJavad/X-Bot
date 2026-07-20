@@ -1,0 +1,8 @@
+aiogram
+tortoise-orm
+aioxui
+redis
+pydantic
+pydantic_settings
+jdatetime
+qrcode

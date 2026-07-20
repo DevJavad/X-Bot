@@ -1,0 +1,332 @@
+msgid ""
+msgstr ""
+
+# Messages:
+
+msgid "message:start"
+msgstr ""
+"سلام {name} عزیز، 👋\n"
+"به جمع کاربران ما خوش اومدی! 🎉\n\n"
+"از اینکه سرویس VPN ما رو انتخاب کردی، خوشحالیم 😊\n\n"
+"با ما یه تجربه متفاوت از اینترنت رو داشته باش:\n\n"
+"🚀 سرعت فوق‌العاده\n"
+"🔒 امنیت در سطح استانداردهای جهانی\n"
+"📶 اتصال پایدار و بدون قطعی\n"
+"🌍 آیپی و لوکیشن‌های متنوع و پایدار\n"
+"🛠️ پشتیبانی ۲۴ ساعته، همیشه کنار شما\n\n"
+"✨ از منوی زیر می‌تونی سرویس مورد نظرت رو انتخاب کنی:"
+
+msgid "message:join_required"
+msgstr ""
+"📢 برای استفاده از امکانات ربات، ابتدا در کانال اطلاع‌رسانی ما عضو شوید.\n\n"
+"✅ پس از عضویت، روی دکمه «بررسی عضویت» کلیک کنید."
+
+msgid "message:profile"
+msgstr ""
+"👤 <b>پروفایل شما</b>\n\n"
+"👥 <b>تعداد دعوت‌ها:</b> <code>{invites}</code>\n"
+"🧾 <b>تعداد فاکتورها:</b> <code>{invoices}</code>\n"
+"💳 <b>تعداد پرداخت‌ها:</b> <code>{payments}</code>\n"
+"📂 <b>تعداد سرویس‌ها:</b> <code>{services}</code>\n\n"
+"💼 <b>موجودی کیف پول:</b> <code>{balance:,}</code>\n\n"
+"🆔 <b>شناسه کاربری:</b> <code>{user_id}</code>\n"
+"📅 <b>تاریخ پیوستن:</b>\n<code>{join_date}</code>"
+
+
+msgid "message:invite"
+msgstr ""
+"🎁 <b>دعوت از دوستان و دریافت هدیه</b>\n\n"
+"با دعوت دوستان از طریق لینک اختصاصی، بدون پرداخت حتی ۱ ریال کیف پول شما شارژ می‌شود و می‌توانید از خدمات ربات استفاده کنید. 🔥\n\n"
+"🛍 <b>پورسانت خرید:</b>\n"
+"۲۰٪ از مبلغ خرید زیرمجموعه به شما تعلق می‌گیرد.\n\n"
+"📊 <b>آمار دعوت‌های شما:</b>\n"
+"👥 دعوت‌ها: <code>{invites}</code>\n"
+"💳 خریدها: <code>{buys}</code>\n"
+"💵 مجموع خرید: <code>{buy_balance}</code>"
+
+
+msgid "message:deposit"
+msgstr ""
+"💵 مبلغ موردنظر خود را به تومان ارسال کنید:\n\n"
+"⚠️ حداکثر درخواست افزایش موجودی: <code>{limit}</code> مرتبه در روز.\n"
+"⚠️ حداقل مبلغ <b>{min:,}</b> تومان و حداکثر مبلغ <b>{max:,}</b> تومان است."
+
+
+msgid "message:deposit:invalid_value"
+msgstr ""
+"⚠️ مبلغ را به‌صورت عدد صحیح وارد کنید."
+
+
+msgid "message:deposit:invalid_number"
+msgstr ""
+"⚠️ حداقل مبلغ <b>{min:,}</b> تومان و حداکثر مبلغ <b>{max:,}</b> تومان است."
+
+
+msgid "message:deposit:invoice"
+msgstr ""
+"✅ <b>فاکتور شما ایجاد شد</b>\n\n"
+"🧾 نوع فاکتور: <code>{type}</code>\n"
+"🆔 شناسه فاکتور: <code>{invoice_id}</code>\n\n"
+"💵 مبلغ به ریال: <code>{amount}0</code>\n"
+"💵 مبلغ به تومان: <code>{amount:,}</code>\n\n"
+"<b>لطفاً مبلغ را واریز کرده و سپس تصویر رسید را همینجا ارسال کنید.</b>\n"
+"⚠️ رسید را به‌صورت عکس باکیفیت ارسال کنید.\n"
+"⚠️ از ارسال رسید جعلی یا تصاویر نامرتبط خودداری کنید."
+
+
+msgid "message:deposit:receipt_already_sent"
+msgstr ""
+"⚠️ این رسید قبلاً ارسال شده است.\n"
+"❌ در صورت تکرار این عمل، حساب کاربری شما مسدود خواهد شد."
+
+
+msgid "message:deposit:confirming"
+msgstr ""
+"✅ <b>فاکتور دریافت شد</b>\n\n"
+"🧾 نوع فاکتور: {type}\n"
+"🆔 شناسه فاکتور: <code>{invoice_id}</code>\n\n"
+"💵 مبلغ به ریال: <code>{amount}0</code>\n"
+"💵 مبلغ به تومان: <code>{amount:,}</code>\n\n"
+"👤 <b>اطلاعات کاربر</b>\n"
+"🆔 <b>شناسه کاربری:</b> <code>{user_id}</code>\n"
+"🆔 <b>نام کاربری:</b>\n<blockquote>{username}</blockquote>\n\n"
+"🧾 وضعیت فاکتور: {status}\n\n"
+"🖼 <b>شناسه عکس رسید:</b>\n<code><blockquote>{receipt_photo_id}</blockquote></code>"
+
+
+msgid "message:deposit:wait"
+msgstr ""
+"✍️ فاکتور شما با موفقیت ثبت شد و در صف بررسی قرار گرفت.\n\n"
+"✅ پس از تأیید مدیر، مبلغ به موجودی حساب شما اضافه خواهد شد."
+
+
+msgid "message:deposit:confirm"
+msgstr ""
+"✅ <b>فاکتور شما تأیید شد</b>\n\n"
+"🆔 شناسه فاکتور: <code>{invoice_id}</code>\n\n"
+"💵 مبلغ <code>{amount:,}</code> تومان به موجودی شما اضافه شد."
+
+
+msgid "message:deposit:reject"
+msgstr ""
+"❌ <b>فاکتور شما توسط مدیر رد شد</b>\n\n"
+"🆔 شناسه فاکتور: <code>{invoice_id}</code>\n"
+"💵 مبلغ فاکتور: <code>{amount:,}</code> تومان\n\n"
+"💬 در صورت وجود هرگونه مشکل، با پشتیبانی در ارتباط باشید."
+
+
+msgid "message:invoices:list"
+msgstr ""
+"🧾 <b>فاکتورهای شما</b>\n\n"
+"📊 تعداد کل: <code>{count}</code>\n"
+"📅 تعداد امروز: <code>{today}</code>\n\n"
+"📄 صفحه {page} از {pages}\n\n"
+"⚠️ برای مشاهده جزئیات هر فاکتور، روی آن کلیک کنید."
+
+
+msgid "message:invoice:detail"
+msgstr ""
+"📋 <b>مشخصات فاکتور</b>\n"
+"🆔 <code>{invoice_id}</code>\n\n"
+"🧾 نوع فاکتور: {type}\n"
+"📌 وضعیت: {status}\n\n"
+"💵 مبلغ: <code>{amount:,}</code>\n"
+"🏷 مبلغ تخفیف: <code>{discount:,}</code>\n"
+"💰 مبلغ نهایی: <code>{final_amount:,}</code>\n\n"
+"📝 توضیحات:\n<blockquote>{description}</blockquote>\n\n"
+"🖼 شناسه عکس رسید:\n<code><blockquote>{receipt_photo_id}</blockquote></code>"
+
+
+msgid "message:purchase"
+msgstr ""
+"🛒 سرویس موردنظر خود را از لیست زیر انتخاب کنید:"
+
+
+msgid "message:product:detail"
+msgstr ""
+"🚀 <b>مشخصات سرویس</b>\n\n"
+"💾 حجم سرویس: {traffic}\n"
+"👥 محدودیت کاربر: {user_limit}\n"
+"📅 مدت استفاده: {expires_at}\n"
+"💵 قیمت سرویس: <code>{price:,}</code>\n\n"
+"🔖 توضیحات:\n{description}\n\n"
+"💳 موجودی شما: <code>{balance}</code>"
+
+msgid "message:trial"
+msgstr ""
+"✅ سرویس تست با موفقیت ایجاد شد\n\n"
+"👤 نام کاربری سرویس : <code>{name}</code>\n\n"
+"🔗 لینک اتصال:\n<blockquote>{sub_url}</blockquote>"
+
+msgid "message:services"
+msgstr ""
+"<b>تعداد سرویس های شما</b>: <code>{count}</code>\n\n"
+"👇 برای مشاهده جزئیات، یکی از سرویس‌های خود را انتخاب کنید:"
+
+msgid "message:service:details"
+msgstr ""
+"📦 <b>جزئیات سرویس</b>\n\n"
+"🔖 نام: <code>{name}</code>\n"
+"📶 وضعیت: <b>{status}</b>\n\n"
+"📊 حجم مصرف‌شده: <code>{traffic_used}</code>\n"
+"📈 حجم کل: <code>{traffic_limit}</code>\n"
+"📉 حجم باقی‌مانده: <code>{traffic_remaining}</code>\n\n"
+"📈 درصد مصرف: {used_percent}%\n"
+"📉 درصد باقی‌مانده: {remaining_percent}%\n\n"
+"📱 محدودیت کاربر: <code>{user_limit}</code>\n\n"
+"⏳ تاریخ فعالسازی: <code>{created_at}</code>\n"
+"⏳ تاریخ انقضا: <code>{expire}</code>\n"
+"⏳ تاریخ آخرین اتصال: <code>{last_online}</code>\n\n"
+"🔗 لینک اشتراک:\n<blockquote>{sub_url}</blockquote>"
+
+msgid "message:management"
+msgstr "کاربر ادمین ( <code>{admin_id}</code> ) با موفقیت وارد پنل شدید"
+
+msgid "message:management:products"
+msgstr "تعداد محصولات موجود: <code>{products}</code>:"
+
+
+# Buttons:
+
+msgid "button:purchase"
+msgstr "خرید سرویس"
+
+msgid "button:renewal"
+msgstr "تمدید سرویس"
+
+msgid "button:deposit"
+msgstr "افزایش موجودی"
+
+msgid "button:profile"
+msgstr "حساب کاربری"
+
+msgid "button:services"
+msgstr "سرویس‌های من"
+
+msgid "button:invoices"
+msgstr "فاکتورهای من"
+
+msgid "button:trial"
+msgstr "سرویس تست"
+
+msgid "button:invite"
+msgstr "دعوت از دوستان"
+
+msgid "button:support"
+msgstr "پشتیبانی"
+
+msgid "button:tutorial"
+msgstr "آموزش اتصال"
+
+msgid "button:management"
+msgstr "پنل مدیریت"
+
+
+msgid "button:join"
+msgstr "عضویت"
+
+msgid "button:joined"
+msgstr "بررسی عضویت"
+
+
+msgid "button:back"
+msgstr "بازگشت"
+
+msgid "button:next"
+msgstr "بعدی"
+
+msgid "button:previous"
+msgstr "قبلی"
+
+msgid "button:cancel"
+msgstr "کنسل"
+
+msgid "button:copy"
+msgstr "کپی کردن شماره کارت"
+
+msgid "button:deposit:confirm"
+msgstr "تایید"
+
+msgid "button:deposit:reject"
+msgstr "رد کردن"
+
+msgid "button:search_by_id"
+msgstr "جست و جو شناسه فاکتور"
+
+msgid "button:filter"
+msgstr "اعمال فیلتر"
+
+msgid ""button:purchase:
+msgstr "خرید محصول"
+
+msgid "button:sheare_invite_link"
+msgstr "اشتراک گذاری لینک دعوت"
+
+msgid "button:management:products"
+msgstr "محصولات"
+
+
+# Notification:
+
+msgid "notification:join_required"
+msgstr "عضویت شما تایید نشد ❌"
+
+msgid "notification:invoice:cancel"
+msgstr "فاکتور کنسل شد ❌"
+
+msgid "notification:deposit:confirm"
+msgstr "فاکتور تایید شد ✅"
+
+msgid "notification:deposit:reject"
+msgstr "فاکتور رد شد ❌"
+
+msgid "notification:deposit:limit"
+msgstr "حداکثر درخواست افزایش موجودی {limit} مرتبه در روز میباشد ⚠️"
+
+msgid "notification:deposit:pending_exists"
+msgstr "شما یک فاکتور در انتظار تایید دارید\nمنتظر بمانید تا تکمیل شود ⚠️"
+
+msgid "notification:invoices:empty"
+msgstr "شما هیچ فاکتوری ندارید ⚠️"
+
+msgid "notification:products:empty"
+msgstr "هیچ محصولی برای فروش موجود نیست ⚠️"
+
+msgid "notification:balance:insufficient"
+msgstr "موجودی حساب شما کافی نیست ⚠️"
+
+msgid "notification:products:not_found"
+msgstr "سرویس مورد نظر موجود نمیباشد ⚠️"
+
+msgid "notification:trial_used"
+msgstr "شما سرویس تست خود را دریافت کردید ⚠️"
+
+msgid "notification:services:empty"
+msgstr "شما هیچ سرویسی ندارید ⚠️"
+
+msgid "notification:service:not_found"
+msgstr "سرویس مورد نظر پیدا نشد ⚠️"
+
+
+# Unit:
+
+msgid "unit:gb"
+msgstr "گیگابایت"
+
+msgid "unit:mb"
+msgstr "مگابایت"
+
+msgid "unit:day"
+msgstr "روز"
+
+msgid "unit:month"
+msgstr "ماه"
+
+msgid "unit:year"
+msgstr "سال"
+
+msgid "unit:user"
+msgstr "کاربر"
+
+msgid "unit:unlimited"
+msgstr "نامحدود"

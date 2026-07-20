@@ -1,0 +1,265 @@
+msgid ""
+msgstr ""
+
+# Messages:
+
+msgid "message:start"
+msgstr ""
+"Hello {name}! 👋\n"
+"Welcome to our community! 🎉\n\n"
+"Thank you for choosing our VPN service. 😊\n\n"
+"Enjoy a better internet experience with us:\n\n"
+"🚀 Ultra-fast speeds\n"
+"🔒 Enterprise-grade security\n"
+"📶 Stable and uninterrupted connection\n"
+"🌍 Multiple stable IPs and locations\n"
+"🛠️ 24/7 customer support\n\n"
+"✨ Select your desired service from the menu below:"
+
+msgid "message:join_required"
+msgstr ""
+"📢 To use the bot, please join our official channel first.\n\n"
+"✅ After joining, click the \"Check Membership\" button."
+
+msgid "message:profile"
+msgstr ""
+"👤 <b>Your Profile</b>\n\n"
+"👥 <b>Referrals:</b> <code>{referrals}</code>\n"
+"🧾 <b>Invoices:</b> <code>{orders}</code>\n"
+"💳 <b>Payments:</b> <code>{transactions}</code>\n"
+"📂 <b>Services:</b> <code>{services}</code>\n\n"
+"💼 <b>Wallet Balance:</b> <code>{balance:,}</code>\n\n"
+"🆔 <b>User ID:</b> <code>{user_id}</code>\n"
+"📅 <b>Joined:</b>\n<code>{join_date}</code>"
+
+msgid "message:invite"
+msgstr ""
+"🎁 <b>Invite Friends & Earn Rewards</b>\n\n"
+"Invite your friends using your personal referral link and receive wallet credit for free. 🔥\n\n"
+"🛍 <b>Referral Commission</b>\n"
+"Earn 20%% commission from every purchase made by your referrals.\n\n"
+"📊 <b>Your Referral Statistics</b>\n"
+"👥 Referrals: <code>{referral}</code>\n"
+"💳 Purchases: <code>{buys}</code>\n"
+"💵 Total Sales: <code>{buy_balance}</code>"
+
+msgid "message:deposit"
+msgstr ""
+"💵 Enter the amount you want to deposit (Toman):\n\n"
+"⚠️ Maximum deposit requests per day: <code>{limit}</code>.\n"
+"⚠️ Minimum: <b>{min:,}</b> Toman | Maximum: <b>{max:,}</b> Toman."
+
+msgid "message:deposit:invalid_value"
+msgstr "⚠️ Please enter a valid integer."
+
+msgid "message:deposit:invalid_number"
+msgstr ""
+"⚠️ The amount must be between <b>{min:,}</b> and <b>{max:,}</b> Toman."
+
+msgid "message:deposit:invoice"
+msgstr ""
+"✅ <b>Your invoice has been created.</b>\n\n"
+"🧾 Invoice Type: <code>{type}</code>\n"
+"🆔 Invoice ID: <code>{invoice_id}</code>\n\n"
+"💵 Amount (Rial): <code>{amount}0</code>\n"
+"💵 Amount (Toman): <code>{amount:,}</code>\n\n"
+"<b>Please complete the payment and send a clear photo of the receipt here.</b>\n"
+"⚠️ Fake or unrelated receipts are not accepted."
+
+msgid "message:deposit:receipt_already_sent"
+msgstr ""
+"⚠️ This receipt has already been submitted.\n"
+"❌ Repeated violations may result in account suspension."
+
+msgid "message:deposit:confirming"
+msgstr ""
+"✅ <b>Invoice Received</b>\n\n"
+"🧾 Invoice Type: {type}\n"
+"🆔 Invoice ID: <code>{invoice_id}</code>\n\n"
+"💵 Amount (Rial): <code>{amount}0</code>\n"
+"💵 Amount (Toman): <code>{amount:,}</code>\n\n"
+"👤 <b>User Information</b>\n"
+"🆔 User ID: <code>{user_id}</code>\n"
+"🆔 Username:\n<blockquote>{username}</blockquote>\n\n"
+"🧾 Status: {status}\n\n"
+"🖼 Receipt Photo ID:\n<code><blockquote>{receipt_photo_id}</blockquote></code>"
+
+msgid "message:deposit:wait"
+msgstr ""
+"✍️ Your invoice has been submitted successfully and is awaiting review.\n\n"
+"✅ Your balance will be updated after approval."
+
+msgid "message:deposit:confirm"
+msgstr ""
+"✅ <b>Your invoice has been approved.</b>\n\n"
+"🆔 Invoice ID: <code>{invoice_id}</code>\n\n"
+"💵 <code>{amount:,}</code> Toman has been added to your wallet."
+
+msgid "message:deposit:reject"
+msgstr ""
+"❌ <b>Your invoice has been rejected.</b>\n\n"
+"🆔 Invoice ID: <code>{invoice_id}</code>\n"
+"💵 Amount: <code>{amount:,}</code> Toman\n\n"
+"💬 Please contact support if you need assistance."
+
+msgid "message:invoices:list"
+msgstr ""
+"🧾 <b>Your Invoices</b>\n\n"
+"📊 Total: <code>{count}</code>\n"
+"📅 Today: <code>{today}</code>\n\n"
+"📄 Page {page} of {pages}\n\n"
+"⚠️ Tap an invoice to view its details."
+
+msgid "message:invoice:detail"
+msgstr ""
+"📋 <b>Invoice Details</b>\n"
+"🆔 <code>{invoice_id}</code>\n\n"
+"🧾 Type: {type}\n"
+"📌 Status: {status}\n\n"
+"💵 Amount: <code>{amount:,}</code>\n"
+"🏷 Discount: <code>{discount:,}</code>\n"
+"💰 Final Amount: <code>{final_amount:,}</code>\n\n"
+"📝 Description:\n<blockquote>{description}</blockquote>\n\n"
+"🖼 Receipt Photo ID:\n<code><blockquote>{receipt_photo_id}</blockquote></code>"
+
+msgid "message:purchase"
+msgstr "🛒 Select a service from the list below:"
+
+msgid "message:product:detail"
+msgstr ""
+"🚀 <b>Service Details</b>\n\n"
+"💾 Traffic: {traffic}\n"
+"👥 User Limit: {user_limit}\n"
+"📅 Duration: {expires_at}\n"
+"💵 Price: <code>{price:,}</code>\n\n"
+"💳 Your Balance: <code>{balance}</code>"
+
+# Buttons:
+
+msgid "button:purchase"
+msgstr "Purchase Service"
+
+msgid "button:renewal"
+msgstr "Renew Service"
+
+msgid "button:deposit"
+msgstr "Top Up Balance"
+
+msgid "button:profile"
+msgstr "My Profile"
+
+msgid "button:services"
+msgstr "My Services"
+
+msgid "button:invoices"
+msgstr "My Invoices"
+
+msgid "button:trial"
+msgstr "Free Trial"
+
+msgid "button:invite"
+msgstr "Invite Friends"
+
+msgid "button:support"
+msgstr "Support"
+
+msgid "button:tutorial"
+msgstr "Connection Guide"
+
+msgid "button:management"
+msgstr "Admin Panel"
+
+msgid "button:join"
+msgstr "Join Channel"
+
+msgid "button:joined"
+msgstr "Check Membership"
+
+msgid "button:back"
+msgstr "Back"
+
+msgid "button:next"
+msgstr "Next"
+
+msgid "button:previous"
+msgstr "Previous"
+
+msgid "button:cancel"
+msgstr "Cancel"
+
+msgid "button:copy"
+msgstr "Copy Card Number"
+
+msgid "button:deposit:confirm"
+msgstr "Approve"
+
+msgid "button:deposit:reject"
+msgstr "Reject"
+
+msgid "button:search_by_id"
+msgstr "Search Invoice ID"
+
+msgid "button:filter"
+msgstr "Apply Filter"
+
+msgid "button:purchase:"
+msgstr "Purchase Product"
+
+
+# Notifications:
+
+msgid "notification:join_required"
+msgstr "Your membership has not been verified. ❌"
+
+msgid "notification:invoice:cancel"
+msgstr "Invoice has been canceled. ❌"
+
+msgid "notification:deposit:confirm"
+msgstr "Invoice approved. ✅"
+
+msgid "notification:deposit:reject"
+msgstr "Invoice rejected. ❌"
+
+msgid "notification:deposit:limit"
+msgstr "You can submit a maximum of {limit} balance top-up requests per day. ⚠️"
+
+msgid "notification:deposit:pending_exists"
+msgstr ""
+"You already have a pending invoice.\n"
+"Please wait until it is processed. ⚠️"
+
+msgid "notification:invoices:empty"
+msgstr "You don't have any invoices. ⚠️"
+
+msgid "notification:products:empty"
+msgstr "There are currently no products available. ⚠️"
+
+msgid "notification:balance:insufficient"
+msgstr "Your account balance is insufficient. ⚠️"
+
+msgid "notification:products:not_found"
+msgstr "The requested service is not available. ⚠️"
+
+
+# Units:
+
+msgid "unit:gb"
+msgstr "GB"
+
+msgid "unit:mb"
+msgstr "MB"
+
+msgid "unit:day"
+msgstr "Day"
+
+msgid "unit:month"
+msgstr "Month"
+
+msgid "unit:year"
+msgstr "Year"
+
+msgid "unit:user"
+msgstr "User"
+
+msgid "unit:unlimited"
+msgstr "Unlimited"
