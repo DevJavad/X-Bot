@@ -6,3 +6,6 @@ pydantic
 pydantic_settings
 jdatetime
 qrcode
+colorama
+babel
+pillow

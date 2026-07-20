@@ -29,13 +29,13 @@ async def start(message: Message, user: User, state: FSMContext) -> None:
     return await message.answer(text, reply_markup=markup)
 
 
-@router.callback_query(CB.filter(F.action == Action.JOINED))
+@router.callback_query(F.data == Action.JOINED)
 async def joined(query: CallbackQuery, user: User, config: Config):
-    if await is_member(query.message.bot, config, user.user_id):
-        text, markup = start_data(query.message, user)
-        return await query.message.edit_text(text, reply_markup=markup)
+    if not await is_member(query.message.bot, config, user.user_id):
+        return await query.answer(_("notification:join_required"), True)
 
-    return await query.answer(_("notification:join_required"), True)
+    text, markup = start_data(query.message, user)
+    return await query.message.edit_text(text, reply_markup=markup)
 
 
 @router.callback_query(BackCB.filter(F.action == BackAction.MAIN))
